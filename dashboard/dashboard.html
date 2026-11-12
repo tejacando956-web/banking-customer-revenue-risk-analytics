@@ -1,0 +1,20 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Retail Banking Analytics — Dashboard</title>
+<style>body{font-family:system-ui,Arial,sans-serif;background:#f6f8fb;color:#1c2733;margin:0}header{background:#1f3a5f;color:#fff;padding:22px}main{max-width:1060px;margin:0 auto;padding:18px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}.kpi{background:#eef4f8;border-radius:8px;padding:10px;text-align:center}.kpi b{display:block;font-size:17px;color:#0e7c7b}
+img{width:100%;border:1px solid #e3ebf2;border-radius:8px}table{width:100%;border-collapse:collapse;background:#fff}th,td{padding:7px 9px;border-bottom:1px solid #e3ebf2;text-align:left;font-size:14px}h2{color:#1f3a5f}</style></head>
+<body><header><h1>End-to-End Retail Banking Analytics</h1><p>Customer 360 • Revenue • Credit Risk • Channels • Automated KPI Pack — synthetic portfolio data</p></header><main>
+<h2>Executive KPI Cards (actual values from analysis.py)</h2><div class="kpis"><div class="kpi"><b>800</b><small>Total Customers</small></div><div class="kpi"><b>1,453</b><small>Accounts</small></div><div class="kpi"><b>$13,780,469</b><small>Total Deposits</small></div><div class="kpi"><b>$2,982,737</b><small>Total Revenue</small></div><div class="kpi"><b>$41,244,219</b><small>Loans Outstanding</small></div><div class="kpi"><b>8.41%</b><small>Delinquency (30+ DPD)</small></div><div class="kpi"><b>1.33%</b><small>Charge-off Proxy (90+ DPD)</small></div><div class="kpi"><b>70.52%</b><small>Digital Share</small></div><div class="kpi"><b>47.5%</b><small>Deep-Relationship Rate (3+ products)</small></div><div class="kpi"><b>1.82</b><small>Accounts / Customer</small></div><div class="kpi"><b>Poor (<600) — 21.05%</b><small>Worst Credit Band</small></div><div class="kpi"><b>271 → 401</b><small>Monthly Actives</small></div></div>
+<h2>Module 2 — Revenue Trend by Segment</h2><img src="../images/revenue_trend_by_segment.png" alt="Revenue trend by segment">
+<h2>Module 3 — Delinquency by DPD Bucket</h2><img src="../images/delinquency_by_dpd_bucket.png" alt="Delinquency by DPD bucket">
+<h2>Module 4 — Channel Mix</h2><img src="../images/channel_mix.png" alt="Channel mix">
+<h2>Module 1 — Segment Balances</h2><img src="../images/customer_segment_balances.png" alt="Segment balances">
+<h2>Module 1 — Segment Summary</h2><table><tr><th>Segment</th><th>Customers</th><th>Accounts/Customer</th><th>Total Deposits</th><th>Median Deposit</th><th>Deep-Relationship %</th></tr><tr><td>Affluent</td><td>194</td><td>1.88</td><td>$8,779,011</td><td>$26,796</td><td>49.48%</td></tr><tr><td>Mass</td><td>494</td><td>1.79</td><td>$2,915,752</td><td>$3,958</td><td>47.17%</td></tr><tr><td>Small Business</td><td>112</td><td>1.81</td><td>$2,085,706</td><td>$14,098</td><td>45.54%</td></tr></table>
+<h2>Module 2 — Revenue by Product Line</h2><table><tr><th>Product Line</th><th>Revenue</th><th>Share</th></tr><tr><td>Auto loan interest</td><td>$0</td><td>0.0%</td></tr><tr><td>Personal loan interest</td><td>$0</td><td>0.0%</td></tr><tr><td>Mortgage interest</td><td>$0</td><td>0.0%</td></tr><tr><td>Transaction fees</td><td>$71,171</td><td>100.0%</td></tr></table>
+<h2>Key Insights</h2><ul>
+<li><b>Risk:</b> 30+ DPD delinquency is 8.41% overall but 21.05% in the Poor (<600) band — limit and pricing reviews belong there first.</li>
+<li><b>Revenue:</b> Mass is the largest segment by total revenue ($1,454,008), while Affluent earns most per customer ($5,509).</li>
+<li><b>Channels:</b> digital (mobile + online) carries 70.52% of transactions; monthly actives grew 271 → 401 during 2024.</li>
+<li><b>Engagement:</b> 47.5% of customers hold 3+ product types; the single-product base is the cross-sell opportunity.</li>
+<li><b>Data quality:</b> 14/14 Module 0 checks fully clean.</li></ul>
+<p>Full auto-generated executive pack: <a href="../outputs/kpi_pack.md">outputs/kpi_pack.md</a> • Power BI build spec: <a href="dashboard_spec.md">dashboard_spec.md</a></p>
+</main></body></html>

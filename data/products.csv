@@ -1,0 +1,10 @@
+product_id,product_name,product_type,annual_rate_pct,annual_fee_usd
+P01,Everyday Checking,deposit_account,0.05,35
+P02,Premium Checking,deposit_account,0.1,95
+P03,High-Yield Savings,deposit_account,3.9,0
+P04,Regular Savings,deposit_account,0.8,25
+P05,Cash Rewards Credit Card,credit_card,21.99,0
+P06,Travel Credit Card,credit_card,24.99,95
+P07,Auto Loan,loan,7.4,0
+P08,Personal Loan,loan,11.9,0
+P09,Home Mortgage,loan,6.6,0
