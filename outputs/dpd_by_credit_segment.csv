@@ -1,0 +1,12 @@
+credit_band,segment,loans,delinquent_30plus,dpd_30plus_pct
+Excellent (740+),Affluent,119,7,5.88
+Excellent (740+),Mass,29,0,0.0
+Excellent (740+),Small Business,15,0,0.0
+Fair (600-669),Affluent,17,2,11.76
+Fair (600-669),Mass,267,29,10.86
+Fair (600-669),Small Business,45,2,4.44
+Good (670-739),Affluent,86,1,1.16
+Good (670-739),Mass,225,24,10.67
+Good (670-739),Small Business,63,3,4.76
+Poor (<600),Mass,36,7,19.44
+Poor (<600),Small Business,2,1,50.0
