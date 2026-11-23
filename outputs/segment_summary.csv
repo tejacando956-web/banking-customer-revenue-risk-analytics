@@ -1,0 +1,4 @@
+segment,customers,accounts,avg_accounts_per_customer,total_deposits_usd,median_deposit_usd,multi_product_rate_pct
+Affluent,194,364,1.88,8779010.81,26796.38,49.48
+Mass,494,886,1.79,2915751.66,3957.81,47.17
+Small Business,112,203,1.81,2085706.26,14098.41,45.54

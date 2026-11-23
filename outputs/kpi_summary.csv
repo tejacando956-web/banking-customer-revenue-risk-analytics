@@ -1,0 +1,16 @@
+kpi,value
+total_deposits_usd,13780468.73
+total_revenue_usd,2982737.43
+loan_interest_revenue_usd,2911566.37
+fee_revenue_usd,71171.06
+top_segment_revenue_per_customer_usd,5508.92
+top_decile_revenue_share_pct,45.77
+top_deposit_cell_share_pct,40.04
+multi_product_holding_rate_pct,47.5
+customers_holding_2_products,415
+total_loans,904
+delinquency_rate_30plus_pct,8.41
+chargeoff_proxy_rate_pct,1.33
+worst_dpd_product_30plus_pct,11.17
+digital_adoption_share_pct,70.52
+monthly_active_customers_last,401
