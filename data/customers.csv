@@ -1,0 +1,801 @@
+customer_id,segment,age_band,region,join_date,credit_score
+C0001,Affluent,45-54,West,2021-03-20,764
+C0002,Mass,25-34,West,2024-11-18,693
+C0003,Small Business,65+,Southwest,2019-03-31,688
+C0004,Affluent,45-54,Northeast,2022-02-12,744
+C0005,Mass,25-34,Southeast,2024-08-04,612
+C0006,Small Business,25-34,Southwest,2025-08-27,592
+C0007,Affluent,45-54,West,2020-10-03,742
+C0008,Affluent,25-34,West,2023-07-18,750
+C0009,Mass,35-44,Midwest,2020-04-28,719
+C0010,Mass,65+,Southeast,2019-10-23,736
+C0011,Mass,18-24,West,2021-06-19,736
+C0012,Small Business,18-24,Southeast,2025-03-06,645
+C0013,Affluent,65+,Southeast,2023-10-25,719
+C0014,Affluent,45-54,West,2022-06-01,757
+C0015,Mass,25-34,Midwest,2020-12-22,779
+C0016,Mass,65+,Southeast,2019-12-28,732
+C0017,Mass,55-64,Northeast,2020-11-21,715
+C0018,Mass,35-44,Midwest,2020-01-25,648
+C0019,Affluent,45-54,West,2020-04-22,695
+C0020,Affluent,25-34,Midwest,2023-10-20,771
+C0021,Affluent,18-24,Southwest,2019-12-05,685
+C0022,Mass,45-54,Southeast,2019-05-01,654
+C0023,Small Business,25-34,Southwest,2022-10-14,685
+C0024,Small Business,45-54,Southwest,2020-12-31,762
+C0025,Affluent,55-64,Southwest,2022-03-05,719
+C0026,Mass,18-24,Southwest,2019-12-23,555
+C0027,Mass,45-54,Midwest,2020-06-19,688
+C0028,Mass,25-34,Southeast,2022-01-29,634
+C0029,Mass,55-64,Southwest,2023-10-26,667
+C0030,Affluent,25-34,West,2021-11-22,731
+C0031,Affluent,45-54,West,2022-10-13,723
+C0032,Small Business,35-44,Southeast,2022-08-23,726
+C0033,Mass,35-44,Southwest,2020-11-16,596
+C0034,Mass,45-54,Northeast,2020-12-14,642
+C0035,Mass,45-54,Midwest,2021-12-21,696
+C0036,Mass,45-54,Midwest,2019-03-23,637
+C0037,Mass,55-64,Southeast,2023-10-14,593
+C0038,Mass,65+,West,2023-04-16,695
+C0039,Mass,35-44,West,2021-02-19,716
+C0040,Affluent,35-44,Northeast,2021-08-10,733
+C0041,Mass,18-24,Southeast,2021-04-18,577
+C0042,Affluent,55-64,Southeast,2023-07-19,767
+C0043,Affluent,35-44,West,2024-04-21,660
+C0044,Mass,35-44,Midwest,2019-10-05,679
+C0045,Affluent,25-34,Southwest,2021-11-19,695
+C0046,Affluent,55-64,West,2019-02-05,683
+C0047,Mass,35-44,Southwest,2022-02-27,645
+C0048,Mass,45-54,Northeast,2020-09-25,657
+C0049,Affluent,25-34,Northeast,2021-05-06,706
+C0050,Mass,65+,Southeast,2022-03-10,691
+C0051,Mass,25-34,Southeast,2021-04-05,645
+C0052,Mass,25-34,Southwest,2021-10-01,709
+C0053,Affluent,55-64,Northeast,2024-05-04,748
+C0054,Affluent,65+,Southeast,2024-08-28,704
+C0055,Affluent,25-34,Southeast,2019-01-15,696
+C0056,Affluent,35-44,Northeast,2021-08-21,661
+C0057,Mass,45-54,Northeast,2024-11-29,678
+C0058,Mass,55-64,Northeast,2022-09-14,649
+C0059,Mass,35-44,Midwest,2020-06-07,558
+C0060,Mass,35-44,Midwest,2023-02-22,641
+C0061,Affluent,45-54,Midwest,2020-01-05,694
+C0062,Mass,45-54,Midwest,2019-02-25,736
+C0063,Mass,55-64,Southwest,2023-06-01,588
+C0064,Affluent,45-54,West,2022-08-06,670
+C0065,Affluent,25-34,Midwest,2024-04-13,785
+C0066,Mass,65+,Southwest,2021-05-29,726
+C0067,Mass,55-64,Southwest,2024-12-18,631
+C0068,Mass,55-64,Southwest,2021-12-10,637
+C0069,Mass,25-34,Northeast,2024-02-25,693
+C0070,Mass,25-34,West,2019-09-13,560
+C0071,Mass,45-54,Northeast,2019-09-05,581
+C0072,Mass,18-24,Midwest,2024-06-19,652
+C0073,Small Business,65+,Southwest,2024-10-27,760
+C0074,Mass,35-44,Midwest,2025-07-31,645
+C0075,Mass,45-54,Southeast,2021-04-07,670
+C0076,Mass,55-64,West,2019-02-26,716
+C0077,Mass,35-44,Northeast,2025-11-03,760
+C0078,Affluent,25-34,Southeast,2023-03-14,709
+C0079,Mass,45-54,West,2020-09-22,664
+C0080,Affluent,45-54,Southwest,2024-05-01,817
+C0081,Affluent,35-44,Northeast,2025-04-23,667
+C0082,Mass,45-54,Southwest,2020-12-27,711
+C0083,Affluent,65+,West,2024-05-16,689
+C0084,Mass,35-44,Northeast,2024-07-01,670
+C0085,Mass,25-34,Midwest,2022-07-03,654
+C0086,Mass,35-44,Midwest,2023-06-01,622
+C0087,Affluent,35-44,Northeast,2020-11-18,691
+C0088,Mass,25-34,Southeast,2025-06-27,677
+C0089,Mass,25-34,Northeast,2025-11-11,710
+C0090,Mass,45-54,Northeast,2025-11-06,659
+C0091,Mass,35-44,Midwest,2024-02-23,668
+C0092,Affluent,65+,Midwest,2019-04-18,761
+C0093,Mass,25-34,Southeast,2021-07-23,621
+C0094,Mass,25-34,Southeast,2022-02-08,698
+C0095,Mass,55-64,Northeast,2025-09-13,702
+C0096,Affluent,55-64,Southwest,2022-10-26,850
+C0097,Mass,25-34,Southeast,2022-09-29,648
+C0098,Mass,25-34,West,2020-01-10,644
+C0099,Mass,25-34,Midwest,2024-07-16,700
+C0100,Small Business,35-44,West,2021-05-07,727
+C0101,Small Business,35-44,Southwest,2019-08-23,666
+C0102,Affluent,25-34,Southeast,2025-11-23,717
+C0103,Mass,18-24,Southwest,2020-04-29,689
+C0104,Small Business,35-44,Southeast,2019-02-11,653
+C0105,Affluent,65+,Northeast,2019-07-18,717
+C0106,Affluent,45-54,Southeast,2022-02-27,739
+C0107,Mass,35-44,Southeast,2019-09-20,710
+C0108,Mass,25-34,Northeast,2024-11-18,638
+C0109,Mass,25-34,Northeast,2022-07-30,582
+C0110,Small Business,25-34,West,2021-04-05,604
+C0111,Mass,55-64,Midwest,2019-01-09,608
+C0112,Mass,55-64,Midwest,2022-05-08,606
+C0113,Mass,65+,West,2020-01-21,658
+C0114,Mass,65+,Southeast,2025-10-30,612
+C0115,Mass,65+,Midwest,2021-01-12,633
+C0116,Small Business,65+,West,2022-04-25,655
+C0117,Affluent,18-24,Southwest,2019-02-17,715
+C0118,Affluent,25-34,Southeast,2019-11-30,795
+C0119,Mass,25-34,Southeast,2020-06-13,695
+C0120,Affluent,35-44,Northeast,2019-05-12,736
+C0121,Mass,25-34,Northeast,2024-01-26,644
+C0122,Affluent,55-64,Northeast,2025-08-07,716
+C0123,Mass,45-54,Southwest,2025-11-17,680
+C0124,Mass,35-44,Southwest,2020-11-08,691
+C0125,Mass,25-34,Midwest,2024-07-04,624
+C0126,Mass,25-34,Southwest,2022-07-09,667
+C0127,Mass,25-34,Northeast,2019-04-27,574
+C0128,Mass,55-64,Southeast,2019-08-20,675
+C0129,Mass,45-54,Southeast,2022-10-28,699
+C0130,Mass,45-54,West,2021-12-16,652
+C0131,Mass,25-34,Southwest,2019-01-22,747
+C0132,Small Business,35-44,West,2025-06-29,650
+C0133,Mass,35-44,Southeast,2024-02-06,675
+C0134,Mass,55-64,West,2022-07-05,663
+C0135,Mass,55-64,Northeast,2025-11-21,660
+C0136,Mass,25-34,Southeast,2025-10-12,660
+C0137,Small Business,65+,Midwest,2025-10-19,695
+C0138,Mass,25-34,Northeast,2020-10-22,703
+C0139,Affluent,65+,West,2025-02-24,797
+C0140,Mass,25-34,West,2022-07-10,665
+C0141,Mass,25-34,Midwest,2024-01-26,702
+C0142,Mass,55-64,Southeast,2024-12-31,633
+C0143,Small Business,25-34,Northeast,2020-02-21,724
+C0144,Mass,35-44,Southwest,2022-02-17,631
+C0145,Mass,35-44,Midwest,2019-11-25,714
+C0146,Mass,25-34,Southwest,2020-12-13,764
+C0147,Mass,45-54,Southwest,2021-11-20,660
+C0148,Mass,55-64,Northeast,2024-12-21,566
+C0149,Mass,55-64,Northeast,2025-01-08,640
+C0150,Mass,35-44,Southwest,2021-09-21,720
+C0151,Affluent,35-44,Northeast,2021-04-19,760
+C0152,Small Business,25-34,West,2022-09-15,701
+C0153,Mass,25-34,Northeast,2025-05-14,710
+C0154,Mass,25-34,Southwest,2025-10-26,687
+C0155,Mass,65+,West,2020-08-01,720
+C0156,Affluent,55-64,Midwest,2020-04-20,776
+C0157,Mass,55-64,Northeast,2023-12-08,733
+C0158,Affluent,35-44,West,2021-02-07,751
+C0159,Affluent,35-44,Northeast,2020-05-24,776
+C0160,Affluent,35-44,Midwest,2019-03-21,721
+C0161,Mass,35-44,West,2021-10-25,638
+C0162,Small Business,35-44,Southwest,2021-09-26,767
+C0163,Mass,25-34,Northeast,2022-12-06,675
+C0164,Mass,25-34,West,2020-05-25,701
+C0165,Mass,65+,Northeast,2023-12-27,671
+C0166,Mass,35-44,Southwest,2023-10-01,639
+C0167,Affluent,65+,Southwest,2022-03-24,735
+C0168,Affluent,25-34,Southeast,2020-04-07,800
+C0169,Mass,35-44,Midwest,2022-07-16,690
+C0170,Small Business,25-34,Northeast,2023-09-17,613
+C0171,Mass,25-34,West,2021-08-08,655
+C0172,Mass,18-24,Southeast,2020-11-02,745
+C0173,Mass,25-34,Southeast,2022-07-15,655
+C0174,Small Business,65+,Midwest,2021-06-24,609
+C0175,Mass,35-44,Southwest,2021-10-18,750
+C0176,Mass,45-54,Midwest,2021-06-08,696
+C0177,Mass,35-44,Midwest,2021-02-12,662
+C0178,Small Business,35-44,Midwest,2024-01-02,673
+C0179,Small Business,35-44,West,2022-03-19,739
+C0180,Affluent,25-34,Southeast,2022-04-04,711
+C0181,Small Business,65+,West,2023-07-24,742
+C0182,Small Business,55-64,Southwest,2021-07-10,714
+C0183,Mass,45-54,West,2019-09-15,676
+C0184,Mass,35-44,West,2024-12-14,672
+C0185,Affluent,25-34,Southwest,2019-05-23,727
+C0186,Affluent,65+,Southeast,2022-12-29,782
+C0187,Mass,35-44,Southwest,2020-11-08,626
+C0188,Mass,18-24,Southwest,2020-06-29,592
+C0189,Affluent,35-44,Southeast,2019-04-17,763
+C0190,Mass,55-64,Southwest,2025-04-14,693
+C0191,Small Business,45-54,Southeast,2021-12-30,712
+C0192,Mass,55-64,Midwest,2021-05-23,683
+C0193,Mass,55-64,Southwest,2024-03-05,651
+C0194,Affluent,25-34,Northeast,2019-04-10,770
+C0195,Mass,65+,Southeast,2022-12-10,663
+C0196,Mass,35-44,Southwest,2022-06-15,643
+C0197,Mass,45-54,Midwest,2022-11-12,651
+C0198,Small Business,18-24,West,2019-11-13,781
+C0199,Mass,65+,Northeast,2025-08-25,587
+C0200,Mass,25-34,Southwest,2020-08-31,687
+C0201,Affluent,18-24,West,2023-09-27,659
+C0202,Small Business,35-44,West,2024-03-20,685
+C0203,Mass,25-34,Northeast,2021-05-27,645
+C0204,Mass,25-34,West,2019-11-30,571
+C0205,Mass,45-54,Southeast,2021-01-26,683
+C0206,Mass,35-44,Southeast,2024-08-19,648
+C0207,Mass,65+,Southeast,2025-04-30,571
+C0208,Affluent,25-34,Southwest,2025-07-17,773
+C0209,Mass,45-54,Southwest,2020-07-31,730
+C0210,Mass,35-44,Midwest,2023-03-27,732
+C0211,Affluent,45-54,Northeast,2020-01-21,751
+C0212,Mass,45-54,West,2023-12-17,667
+C0213,Mass,35-44,Southeast,2021-11-26,725
+C0214,Affluent,65+,Northeast,2023-12-25,811
+C0215,Affluent,35-44,Midwest,2023-10-14,786
+C0216,Affluent,25-34,Midwest,2025-12-06,693
+C0217,Mass,45-54,Southwest,2022-05-31,674
+C0218,Mass,55-64,West,2021-05-20,685
+C0219,Small Business,18-24,Northeast,2022-09-05,609
+C0220,Mass,35-44,Southeast,2020-02-20,686
+C0221,Mass,65+,Midwest,2019-10-12,767
+C0222,Mass,45-54,Southwest,2022-08-16,694
+C0223,Affluent,65+,Southwest,2024-10-05,801
+C0224,Small Business,35-44,Southeast,2022-09-21,698
+C0225,Mass,45-54,Southwest,2024-06-16,662
+C0226,Small Business,25-34,West,2020-03-29,707
+C0227,Mass,65+,Midwest,2022-02-19,628
+C0228,Mass,35-44,West,2023-04-13,622
+C0229,Affluent,45-54,Southwest,2021-06-05,792
+C0230,Mass,35-44,Southeast,2019-02-06,727
+C0231,Mass,45-54,Southeast,2019-07-07,620
+C0232,Mass,45-54,Southwest,2025-06-23,709
+C0233,Small Business,35-44,Southeast,2023-03-24,686
+C0234,Mass,65+,Southeast,2020-11-05,680
+C0235,Small Business,35-44,Southeast,2020-10-21,711
+C0236,Affluent,45-54,Southwest,2019-04-11,780
+C0237,Mass,35-44,Southeast,2025-08-06,669
+C0238,Affluent,35-44,Southwest,2019-10-04,798
+C0239,Mass,35-44,West,2024-04-20,679
+C0240,Mass,25-34,West,2020-09-04,693
+C0241,Affluent,25-34,West,2021-05-05,698
+C0242,Affluent,45-54,Northeast,2020-11-29,832
+C0243,Mass,45-54,Midwest,2024-10-03,686
+C0244,Mass,45-54,Southeast,2019-03-25,697
+C0245,Mass,18-24,West,2021-06-17,593
+C0246,Small Business,35-44,Southwest,2020-12-13,653
+C0247,Mass,25-34,Southeast,2020-11-27,721
+C0248,Mass,55-64,Midwest,2020-05-07,678
+C0249,Mass,55-64,Southwest,2025-05-15,579
+C0250,Mass,25-34,Midwest,2021-08-23,712
+C0251,Affluent,45-54,Midwest,2021-12-02,711
+C0252,Small Business,25-34,Northeast,2021-09-09,754
+C0253,Mass,25-34,Midwest,2025-11-04,661
+C0254,Mass,25-34,Southeast,2021-05-14,674
+C0255,Mass,25-34,West,2021-05-21,718
+C0256,Affluent,45-54,West,2021-04-16,695
+C0257,Affluent,65+,Southwest,2021-04-13,690
+C0258,Mass,25-34,Northeast,2019-08-17,656
+C0259,Mass,35-44,West,2023-03-21,702
+C0260,Mass,45-54,Southeast,2019-03-06,605
+C0261,Mass,65+,Midwest,2020-07-30,590
+C0262,Affluent,45-54,West,2020-05-30,772
+C0263,Mass,25-34,West,2021-01-13,638
+C0264,Mass,45-54,Northeast,2024-04-13,647
+C0265,Small Business,35-44,Southeast,2023-03-09,606
+C0266,Mass,65+,Southwest,2025-12-01,634
+C0267,Mass,35-44,Midwest,2021-06-14,665
+C0268,Mass,45-54,Southeast,2025-06-25,707
+C0269,Mass,18-24,Midwest,2019-04-25,630
+C0270,Mass,35-44,West,2022-07-09,740
+C0271,Mass,55-64,Southeast,2024-07-30,634
+C0272,Mass,45-54,Southwest,2022-09-18,634
+C0273,Mass,35-44,Southwest,2025-07-07,734
+C0274,Mass,65+,West,2021-03-13,675
+C0275,Affluent,55-64,Southeast,2019-03-26,710
+C0276,Mass,35-44,Southeast,2024-05-27,658
+C0277,Mass,35-44,Midwest,2019-06-23,726
+C0278,Mass,35-44,Midwest,2024-05-04,731
+C0279,Small Business,45-54,Midwest,2024-02-14,653
+C0280,Small Business,35-44,Southwest,2024-11-22,688
+C0281,Mass,25-34,Southwest,2022-05-06,669
+C0282,Mass,65+,Southeast,2025-04-02,621
+C0283,Mass,65+,Southwest,2020-03-09,662
+C0284,Mass,55-64,Southeast,2022-01-12,665
+C0285,Mass,65+,Midwest,2019-11-07,716
+C0286,Mass,45-54,Northeast,2024-05-09,719
+C0287,Mass,55-64,Southeast,2023-12-27,650
+C0288,Mass,55-64,West,2024-08-18,655
+C0289,Mass,35-44,Midwest,2024-05-03,695
+C0290,Mass,35-44,Southwest,2021-02-25,639
+C0291,Affluent,25-34,Northeast,2019-06-23,761
+C0292,Mass,45-54,Southwest,2025-06-27,661
+C0293,Small Business,25-34,Southeast,2022-06-10,646
+C0294,Mass,25-34,Southwest,2019-08-29,622
+C0295,Affluent,45-54,West,2025-06-22,800
+C0296,Small Business,35-44,Midwest,2025-12-10,683
+C0297,Small Business,25-34,Northeast,2022-02-10,764
+C0298,Affluent,55-64,Midwest,2024-05-17,712
+C0299,Affluent,55-64,Northeast,2019-04-03,748
+C0300,Affluent,25-34,Midwest,2019-08-26,843
+C0301,Affluent,18-24,Northeast,2020-12-06,687
+C0302,Mass,35-44,Southwest,2023-08-01,580
+C0303,Mass,55-64,Southeast,2019-12-07,723
+C0304,Mass,55-64,Southeast,2019-03-29,628
+C0305,Small Business,25-34,Northeast,2023-09-02,689
+C0306,Mass,55-64,West,2024-05-17,639
+C0307,Mass,25-34,West,2024-02-28,677
+C0308,Affluent,35-44,West,2024-07-31,692
+C0309,Mass,65+,Northeast,2024-08-09,657
+C0310,Mass,25-34,Southeast,2023-03-17,685
+C0311,Mass,25-34,West,2022-08-17,620
+C0312,Mass,35-44,Midwest,2024-12-24,633
+C0313,Mass,45-54,Northeast,2021-06-06,649
+C0314,Mass,65+,Northeast,2019-09-07,601
+C0315,Mass,65+,Southeast,2024-04-01,646
+C0316,Mass,18-24,West,2020-12-04,670
+C0317,Mass,25-34,Northeast,2025-11-01,647
+C0318,Affluent,55-64,West,2021-11-22,723
+C0319,Mass,25-34,Southwest,2024-12-12,664
+C0320,Small Business,55-64,West,2019-04-19,660
+C0321,Small Business,45-54,West,2023-08-09,721
+C0322,Mass,25-34,Southeast,2022-02-16,730
+C0323,Mass,55-64,West,2022-03-25,644
+C0324,Mass,25-34,Northeast,2020-11-07,687
+C0325,Affluent,35-44,Southeast,2025-10-12,724
+C0326,Affluent,35-44,Southeast,2021-09-28,751
+C0327,Affluent,35-44,Northeast,2024-12-08,805
+C0328,Mass,45-54,Northeast,2021-12-20,688
+C0329,Affluent,45-54,Northeast,2019-05-04,655
+C0330,Mass,65+,Northeast,2025-02-20,685
+C0331,Affluent,65+,Southeast,2020-04-17,790
+C0332,Mass,35-44,Northeast,2020-11-20,655
+C0333,Affluent,25-34,Northeast,2025-01-04,780
+C0334,Small Business,45-54,West,2025-03-29,659
+C0335,Mass,65+,Northeast,2025-05-26,598
+C0336,Mass,25-34,Northeast,2021-12-22,671
+C0337,Mass,35-44,Northeast,2024-04-14,586
+C0338,Affluent,35-44,Northeast,2021-04-15,724
+C0339,Mass,18-24,Midwest,2024-03-02,723
+C0340,Small Business,45-54,West,2022-07-05,604
+C0341,Mass,35-44,Southwest,2019-05-13,607
+C0342,Small Business,55-64,Midwest,2021-12-01,644
+C0343,Affluent,55-64,Northeast,2022-04-07,732
+C0344,Mass,55-64,Southwest,2020-10-18,649
+C0345,Affluent,35-44,Northeast,2021-08-12,798
+C0346,Affluent,35-44,Southwest,2022-07-05,778
+C0347,Small Business,45-54,Midwest,2019-05-07,712
+C0348,Mass,55-64,West,2020-01-23,672
+C0349,Mass,35-44,Southeast,2024-05-09,683
+C0350,Mass,65+,Southwest,2021-06-16,626
+C0351,Mass,25-34,Midwest,2023-04-01,704
+C0352,Mass,55-64,Midwest,2022-12-13,615
+C0353,Mass,25-34,West,2022-11-06,703
+C0354,Mass,25-34,Southwest,2021-11-20,718
+C0355,Mass,35-44,Midwest,2022-05-17,674
+C0356,Mass,18-24,Midwest,2024-10-01,657
+C0357,Affluent,18-24,Southwest,2025-09-26,753
+C0358,Affluent,18-24,Southeast,2020-10-16,606
+C0359,Mass,35-44,Northeast,2023-09-04,679
+C0360,Mass,55-64,Midwest,2025-10-08,660
+C0361,Small Business,18-24,Northeast,2019-01-20,688
+C0362,Mass,45-54,Northeast,2024-06-24,697
+C0363,Mass,55-64,Midwest,2022-06-20,662
+C0364,Mass,25-34,Southwest,2025-10-03,614
+C0365,Affluent,25-34,Southwest,2023-01-14,729
+C0366,Mass,55-64,Southeast,2024-11-07,668
+C0367,Affluent,55-64,Midwest,2020-02-28,740
+C0368,Affluent,35-44,Northeast,2019-12-29,742
+C0369,Mass,55-64,Southwest,2025-06-20,712
+C0370,Small Business,25-34,Southeast,2022-09-04,641
+C0371,Affluent,35-44,Southwest,2022-11-24,743
+C0372,Mass,45-54,West,2020-03-09,723
+C0373,Mass,25-34,Southwest,2020-08-01,587
+C0374,Mass,55-64,Southeast,2024-09-17,673
+C0375,Mass,35-44,West,2021-02-12,639
+C0376,Mass,55-64,Southwest,2023-01-29,648
+C0377,Small Business,35-44,Southwest,2021-03-18,649
+C0378,Mass,35-44,West,2020-11-02,657
+C0379,Mass,25-34,West,2020-02-28,748
+C0380,Affluent,25-34,Northeast,2025-06-28,678
+C0381,Mass,55-64,West,2025-07-25,612
+C0382,Small Business,25-34,Southwest,2019-10-21,631
+C0383,Affluent,25-34,Southeast,2021-06-19,813
+C0384,Mass,25-34,Southeast,2022-12-08,644
+C0385,Mass,25-34,Southwest,2021-09-04,664
+C0386,Small Business,55-64,Southeast,2024-01-13,672
+C0387,Affluent,35-44,Midwest,2020-10-25,693
+C0388,Small Business,65+,Southwest,2019-05-31,679
+C0389,Mass,25-34,Southwest,2021-05-09,776
+C0390,Small Business,45-54,West,2023-03-05,753
+C0391,Affluent,35-44,Northeast,2020-04-05,697
+C0392,Mass,35-44,Southeast,2024-09-11,694
+C0393,Mass,55-64,West,2019-02-01,628
+C0394,Affluent,65+,Midwest,2019-06-22,655
+C0395,Mass,55-64,Southeast,2022-07-21,711
+C0396,Mass,25-34,Southeast,2022-07-30,717
+C0397,Affluent,25-34,Southeast,2021-01-21,782
+C0398,Mass,45-54,Midwest,2020-10-21,644
+C0399,Mass,25-34,Southeast,2019-06-28,657
+C0400,Mass,45-54,Southwest,2023-08-18,699
+C0401,Mass,45-54,Midwest,2021-08-24,683
+C0402,Small Business,35-44,Southwest,2019-10-30,672
+C0403,Affluent,55-64,Northeast,2021-10-16,662
+C0404,Mass,45-54,Southwest,2025-07-17,670
+C0405,Small Business,18-24,West,2020-10-28,739
+C0406,Small Business,18-24,Northeast,2025-03-31,636
+C0407,Mass,45-54,Southeast,2020-10-21,694
+C0408,Affluent,35-44,Southwest,2020-04-19,750
+C0409,Mass,25-34,Southwest,2020-10-26,699
+C0410,Small Business,35-44,Southwest,2021-04-04,729
+C0411,Affluent,55-64,Midwest,2019-11-04,704
+C0412,Affluent,55-64,Southwest,2023-02-07,662
+C0413,Mass,45-54,Southwest,2021-04-30,641
+C0414,Small Business,35-44,Northeast,2024-01-06,730
+C0415,Mass,25-34,Southwest,2022-06-06,641
+C0416,Mass,35-44,Midwest,2022-02-02,634
+C0417,Mass,25-34,Northeast,2022-04-16,583
+C0418,Affluent,45-54,Midwest,2020-02-03,814
+C0419,Mass,45-54,Midwest,2023-12-23,702
+C0420,Small Business,18-24,Northeast,2019-09-23,725
+C0421,Affluent,18-24,West,2024-01-14,779
+C0422,Mass,25-34,Southeast,2025-12-24,691
+C0423,Mass,65+,Southeast,2024-05-02,654
+C0424,Mass,45-54,Midwest,2022-03-07,658
+C0425,Mass,25-34,West,2021-03-12,646
+C0426,Affluent,65+,Southwest,2025-02-02,850
+C0427,Mass,35-44,Southwest,2020-10-17,690
+C0428,Affluent,35-44,Southeast,2022-05-15,714
+C0429,Mass,65+,West,2024-05-19,686
+C0430,Affluent,18-24,West,2025-06-10,690
+C0431,Small Business,25-34,Midwest,2025-06-06,758
+C0432,Affluent,45-54,Midwest,2019-08-12,705
+C0433,Affluent,25-34,Northeast,2025-04-09,758
+C0434,Affluent,45-54,Southwest,2019-10-18,783
+C0435,Mass,25-34,West,2023-01-30,682
+C0436,Mass,25-34,Midwest,2025-06-28,669
+C0437,Mass,25-34,Midwest,2023-07-28,665
+C0438,Mass,35-44,Midwest,2025-08-13,662
+C0439,Affluent,25-34,Northeast,2021-05-28,709
+C0440,Affluent,25-34,Southwest,2021-03-13,715
+C0441,Small Business,55-64,Southwest,2021-04-11,757
+C0442,Mass,35-44,West,2021-06-24,660
+C0443,Affluent,35-44,West,2023-10-08,700
+C0444,Mass,18-24,Midwest,2022-02-27,642
+C0445,Mass,35-44,West,2024-02-24,715
+C0446,Affluent,25-34,Midwest,2021-11-27,765
+C0447,Small Business,45-54,Southwest,2021-02-23,715
+C0448,Mass,25-34,Southwest,2020-04-29,653
+C0449,Mass,55-64,West,2022-11-06,691
+C0450,Mass,65+,Southwest,2025-04-09,636
+C0451,Mass,25-34,Northeast,2024-12-30,653
+C0452,Small Business,25-34,Northeast,2020-10-07,734
+C0453,Affluent,25-34,Midwest,2022-05-02,774
+C0454,Mass,45-54,Midwest,2023-12-04,621
+C0455,Mass,25-34,Southwest,2023-04-11,627
+C0456,Mass,55-64,Midwest,2019-06-21,670
+C0457,Small Business,55-64,Midwest,2023-02-16,768
+C0458,Mass,55-64,West,2019-04-09,579
+C0459,Affluent,35-44,Southeast,2019-10-25,748
+C0460,Affluent,65+,Midwest,2023-07-26,673
+C0461,Mass,18-24,Midwest,2019-09-19,636
+C0462,Mass,35-44,Midwest,2021-05-14,649
+C0463,Small Business,35-44,West,2023-02-09,671
+C0464,Mass,65+,West,2023-07-30,641
+C0465,Mass,45-54,Midwest,2022-02-10,665
+C0466,Affluent,55-64,Midwest,2019-08-28,711
+C0467,Affluent,25-34,Midwest,2024-07-30,669
+C0468,Small Business,65+,Northeast,2025-08-19,725
+C0469,Mass,35-44,Midwest,2025-03-16,699
+C0470,Mass,35-44,Southeast,2024-03-23,703
+C0471,Mass,65+,Northeast,2021-10-22,596
+C0472,Mass,35-44,Northeast,2025-02-12,678
+C0473,Mass,35-44,Midwest,2022-05-29,695
+C0474,Mass,45-54,Northeast,2019-12-14,619
+C0475,Mass,25-34,Southwest,2024-12-08,665
+C0476,Mass,35-44,Midwest,2021-03-27,660
+C0477,Mass,25-34,Southeast,2025-07-21,748
+C0478,Mass,25-34,Southwest,2021-07-28,752
+C0479,Affluent,55-64,Midwest,2025-01-25,660
+C0480,Mass,45-54,Southwest,2022-10-01,777
+C0481,Mass,35-44,Southwest,2022-04-06,624
+C0482,Mass,35-44,Northeast,2021-01-27,709
+C0483,Mass,35-44,Southeast,2024-11-01,709
+C0484,Mass,45-54,Midwest,2019-06-04,620
+C0485,Mass,65+,West,2022-04-10,687
+C0486,Mass,65+,Northeast,2021-07-29,660
+C0487,Mass,35-44,Northeast,2022-10-17,690
+C0488,Mass,35-44,West,2020-10-11,675
+C0489,Mass,35-44,West,2023-08-22,719
+C0490,Mass,45-54,Northeast,2021-09-11,668
+C0491,Affluent,35-44,Midwest,2020-04-24,727
+C0492,Affluent,45-54,Southwest,2020-05-17,784
+C0493,Affluent,35-44,Northeast,2023-11-12,761
+C0494,Mass,35-44,Southeast,2020-10-29,698
+C0495,Affluent,35-44,Southeast,2021-02-22,705
+C0496,Mass,35-44,Southwest,2023-05-18,618
+C0497,Mass,25-34,Southeast,2021-04-20,639
+C0498,Affluent,25-34,Midwest,2021-09-16,707
+C0499,Mass,45-54,Southeast,2020-09-15,700
+C0500,Mass,35-44,Southwest,2021-05-30,709
+C0501,Affluent,25-34,Northeast,2023-11-02,728
+C0502,Small Business,45-54,Southeast,2022-09-23,754
+C0503,Small Business,55-64,Southeast,2025-12-18,752
+C0504,Mass,25-34,West,2024-05-22,676
+C0505,Mass,55-64,West,2019-02-12,628
+C0506,Affluent,65+,Midwest,2021-08-24,806
+C0507,Mass,45-54,Northeast,2021-01-09,662
+C0508,Affluent,45-54,Southwest,2023-02-07,741
+C0509,Mass,18-24,Midwest,2020-11-08,650
+C0510,Mass,65+,West,2025-09-29,625
+C0511,Mass,35-44,Southeast,2021-02-02,599
+C0512,Affluent,65+,West,2022-08-24,763
+C0513,Mass,45-54,West,2019-11-10,630
+C0514,Mass,18-24,Southeast,2025-05-08,803
+C0515,Mass,18-24,Southwest,2025-05-14,616
+C0516,Mass,45-54,Southeast,2024-07-16,608
+C0517,Mass,45-54,Southeast,2021-06-15,688
+C0518,Affluent,18-24,Southeast,2019-05-30,804
+C0519,Mass,45-54,Southwest,2023-12-18,668
+C0520,Affluent,55-64,Southeast,2021-12-30,761
+C0521,Small Business,35-44,Southwest,2025-11-30,607
+C0522,Mass,35-44,Midwest,2023-11-16,635
+C0523,Mass,18-24,Southwest,2022-10-05,617
+C0524,Mass,55-64,West,2025-11-21,580
+C0525,Mass,35-44,Northeast,2024-08-03,670
+C0526,Mass,55-64,West,2022-03-14,564
+C0527,Small Business,35-44,Northeast,2019-02-18,631
+C0528,Small Business,45-54,Midwest,2019-08-25,666
+C0529,Affluent,25-34,Southeast,2022-02-05,698
+C0530,Mass,25-34,Southwest,2022-12-04,683
+C0531,Affluent,55-64,Southwest,2019-03-18,749
+C0532,Affluent,35-44,West,2019-11-19,775
+C0533,Mass,35-44,Midwest,2023-12-01,699
+C0534,Affluent,65+,West,2024-03-31,786
+C0535,Mass,65+,Southeast,2019-03-18,665
+C0536,Mass,55-64,Southeast,2022-07-18,679
+C0537,Mass,25-34,Southeast,2019-07-26,688
+C0538,Mass,45-54,Midwest,2024-01-19,671
+C0539,Mass,55-64,Southwest,2024-10-27,647
+C0540,Affluent,35-44,West,2025-01-25,720
+C0541,Small Business,25-34,Southeast,2023-03-06,653
+C0542,Mass,55-64,Southeast,2023-05-23,684
+C0543,Affluent,35-44,West,2025-06-20,731
+C0544,Small Business,45-54,Midwest,2023-04-11,660
+C0545,Mass,65+,Southeast,2022-02-11,635
+C0546,Mass,45-54,West,2024-04-08,611
+C0547,Mass,35-44,Midwest,2023-02-15,709
+C0548,Mass,35-44,West,2024-11-18,669
+C0549,Affluent,35-44,West,2022-08-30,696
+C0550,Mass,25-34,West,2025-01-25,701
+C0551,Mass,55-64,Midwest,2019-04-25,640
+C0552,Mass,55-64,Southwest,2019-04-03,602
+C0553,Mass,25-34,West,2019-09-10,711
+C0554,Small Business,25-34,Southeast,2022-11-19,666
+C0555,Mass,55-64,Northeast,2023-12-13,647
+C0556,Mass,18-24,Southeast,2020-07-05,667
+C0557,Mass,35-44,Southwest,2020-02-02,716
+C0558,Mass,35-44,Midwest,2025-01-02,666
+C0559,Mass,45-54,Northeast,2024-03-28,611
+C0560,Mass,25-34,Midwest,2023-07-12,689
+C0561,Mass,45-54,Northeast,2022-05-30,643
+C0562,Mass,35-44,Midwest,2021-12-07,750
+C0563,Affluent,45-54,Midwest,2019-02-22,735
+C0564,Affluent,18-24,Southwest,2020-04-24,634
+C0565,Affluent,35-44,Midwest,2025-04-06,751
+C0566,Affluent,35-44,Midwest,2021-05-14,823
+C0567,Affluent,25-34,Southwest,2023-12-02,806
+C0568,Mass,25-34,Southwest,2023-11-30,747
+C0569,Mass,25-34,West,2021-02-28,619
+C0570,Mass,35-44,Southeast,2020-06-05,706
+C0571,Mass,25-34,Midwest,2023-10-30,633
+C0572,Affluent,65+,Southeast,2019-08-27,745
+C0573,Mass,35-44,Midwest,2022-06-15,608
+C0574,Affluent,55-64,Northeast,2025-03-14,706
+C0575,Small Business,65+,Midwest,2023-12-19,660
+C0576,Mass,25-34,Northeast,2024-05-02,705
+C0577,Small Business,45-54,Midwest,2019-08-01,726
+C0578,Mass,55-64,West,2020-05-24,677
+C0579,Small Business,45-54,West,2020-12-02,629
+C0580,Mass,35-44,Midwest,2021-01-15,651
+C0581,Mass,35-44,Northeast,2020-05-09,631
+C0582,Mass,18-24,Southeast,2025-10-14,704
+C0583,Mass,35-44,Northeast,2020-02-25,718
+C0584,Mass,65+,Southwest,2023-12-11,713
+C0585,Small Business,65+,West,2023-02-05,656
+C0586,Affluent,18-24,Midwest,2023-04-06,612
+C0587,Mass,45-54,Northeast,2020-07-01,585
+C0588,Mass,25-34,Northeast,2021-02-23,729
+C0589,Mass,65+,West,2023-03-27,647
+C0590,Mass,18-24,Southeast,2021-02-01,631
+C0591,Small Business,65+,Northeast,2023-11-05,764
+C0592,Mass,55-64,Northeast,2019-04-11,722
+C0593,Mass,25-34,Southeast,2019-07-05,666
+C0594,Mass,18-24,Southwest,2024-02-01,652
+C0595,Mass,55-64,West,2023-04-22,659
+C0596,Mass,25-34,Southeast,2019-04-21,675
+C0597,Affluent,35-44,Southwest,2025-04-11,807
+C0598,Affluent,65+,Northeast,2019-01-13,754
+C0599,Small Business,45-54,Northeast,2025-09-02,723
+C0600,Affluent,35-44,Northeast,2024-02-04,788
+C0601,Mass,35-44,West,2025-11-24,612
+C0602,Affluent,18-24,Midwest,2025-08-16,769
+C0603,Small Business,65+,West,2021-03-09,677
+C0604,Affluent,25-34,Northeast,2024-04-13,622
+C0605,Small Business,25-34,Northeast,2020-06-21,594
+C0606,Affluent,25-34,West,2022-04-17,689
+C0607,Small Business,65+,Northeast,2020-09-04,714
+C0608,Mass,25-34,Northeast,2022-05-24,670
+C0609,Affluent,55-64,Midwest,2025-02-02,743
+C0610,Mass,45-54,Southwest,2022-01-17,753
+C0611,Mass,55-64,Southeast,2019-08-24,608
+C0612,Affluent,65+,Midwest,2021-04-07,734
+C0613,Small Business,55-64,Southwest,2024-06-28,704
+C0614,Small Business,65+,Midwest,2022-08-23,657
+C0615,Mass,25-34,Southeast,2022-11-29,666
+C0616,Affluent,55-64,Northeast,2022-01-04,663
+C0617,Affluent,35-44,Midwest,2021-01-16,798
+C0618,Mass,35-44,West,2023-03-06,634
+C0619,Mass,65+,Southwest,2023-06-03,756
+C0620,Mass,65+,West,2025-04-09,664
+C0621,Affluent,45-54,Northeast,2023-04-25,781
+C0622,Mass,35-44,Northeast,2025-12-12,663
+C0623,Small Business,35-44,Midwest,2024-10-08,689
+C0624,Mass,35-44,Northeast,2019-07-20,639
+C0625,Small Business,35-44,Midwest,2021-09-27,695
+C0626,Mass,35-44,West,2021-09-07,679
+C0627,Affluent,25-34,Southeast,2019-01-08,700
+C0628,Mass,18-24,Midwest,2020-04-05,659
+C0629,Mass,55-64,Southwest,2024-04-27,638
+C0630,Affluent,35-44,Northeast,2021-06-16,838
+C0631,Small Business,65+,West,2020-01-13,686
+C0632,Affluent,45-54,Southeast,2021-01-03,805
+C0633,Mass,18-24,West,2020-12-01,656
+C0634,Mass,25-34,Southwest,2020-03-21,677
+C0635,Mass,25-34,Northeast,2019-09-16,606
+C0636,Mass,65+,Southwest,2024-05-02,645
+C0637,Affluent,25-34,Northeast,2024-10-03,744
+C0638,Affluent,35-44,Midwest,2022-06-19,806
+C0639,Affluent,65+,West,2023-04-19,745
+C0640,Small Business,65+,West,2025-06-02,752
+C0641,Affluent,25-34,West,2024-11-18,764
+C0642,Affluent,18-24,Midwest,2019-03-25,808
+C0643,Mass,25-34,Midwest,2025-08-27,662
+C0644,Mass,18-24,Southeast,2019-06-20,773
+C0645,Affluent,25-34,West,2019-03-09,713
+C0646,Small Business,45-54,Midwest,2021-10-25,656
+C0647,Mass,65+,Southwest,2024-03-16,611
+C0648,Mass,35-44,Southeast,2019-07-24,770
+C0649,Affluent,45-54,Southwest,2021-01-17,772
+C0650,Mass,25-34,Southeast,2020-10-31,650
+C0651,Mass,55-64,Southwest,2021-10-10,721
+C0652,Small Business,45-54,Northeast,2025-11-19,721
+C0653,Affluent,55-64,Northeast,2021-04-25,823
+C0654,Mass,65+,Southeast,2020-06-16,595
+C0655,Small Business,35-44,Midwest,2019-11-08,678
+C0656,Mass,25-34,Southwest,2020-05-20,644
+C0657,Small Business,25-34,Southeast,2019-12-06,601
+C0658,Mass,35-44,Northeast,2023-01-02,713
+C0659,Mass,65+,Southeast,2021-12-08,653
+C0660,Mass,35-44,Midwest,2022-06-23,698
+C0661,Mass,55-64,Midwest,2024-10-22,771
+C0662,Small Business,35-44,Southwest,2023-01-20,674
+C0663,Mass,25-34,Southeast,2020-01-31,646
+C0664,Mass,35-44,Southwest,2021-08-18,670
+C0665,Mass,45-54,Southwest,2021-03-08,709
+C0666,Affluent,45-54,Southwest,2024-10-09,709
+C0667,Affluent,35-44,Midwest,2021-02-21,707
+C0668,Small Business,25-34,West,2019-12-20,738
+C0669,Mass,45-54,Southeast,2024-02-20,682
+C0670,Mass,25-34,Southwest,2021-12-28,573
+C0671,Mass,65+,Northeast,2019-09-02,610
+C0672,Mass,25-34,Northeast,2023-10-25,733
+C0673,Small Business,25-34,West,2020-06-20,708
+C0674,Affluent,35-44,Midwest,2025-01-23,701
+C0675,Mass,35-44,Southwest,2024-10-23,657
+C0676,Mass,35-44,Southwest,2021-07-31,666
+C0677,Small Business,35-44,Southwest,2022-11-17,723
+C0678,Mass,65+,Southeast,2022-12-18,604
+C0679,Mass,35-44,Northeast,2023-07-25,627
+C0680,Mass,35-44,Northeast,2019-06-26,677
+C0681,Mass,35-44,West,2021-04-08,661
+C0682,Mass,18-24,Southeast,2020-03-10,691
+C0683,Mass,45-54,Midwest,2023-11-14,610
+C0684,Mass,25-34,Midwest,2019-06-26,681
+C0685,Affluent,45-54,Northeast,2022-08-11,784
+C0686,Mass,18-24,Midwest,2024-01-31,687
+C0687,Mass,65+,Northeast,2025-08-15,671
+C0688,Small Business,35-44,Northeast,2021-01-04,686
+C0689,Affluent,65+,Northeast,2019-01-21,697
+C0690,Mass,35-44,West,2024-01-20,662
+C0691,Mass,18-24,Midwest,2019-01-04,722
+C0692,Small Business,55-64,West,2019-06-19,685
+C0693,Mass,45-54,Midwest,2025-11-30,625
+C0694,Mass,55-64,Southeast,2025-01-08,643
+C0695,Small Business,35-44,Southwest,2023-12-10,699
+C0696,Mass,45-54,West,2024-10-31,648
+C0697,Affluent,55-64,Midwest,2019-07-12,757
+C0698,Mass,45-54,Northeast,2019-08-15,689
+C0699,Affluent,35-44,Southeast,2021-02-06,775
+C0700,Mass,45-54,West,2019-03-02,729
+C0701,Mass,45-54,Midwest,2025-03-15,710
+C0702,Mass,65+,West,2019-05-24,623
+C0703,Mass,35-44,Midwest,2022-10-19,624
+C0704,Small Business,35-44,Northeast,2024-12-16,687
+C0705,Mass,55-64,West,2024-02-18,645
+C0706,Mass,35-44,Southwest,2020-08-21,614
+C0707,Affluent,45-54,Southwest,2022-04-14,715
+C0708,Affluent,35-44,West,2022-10-30,714
+C0709,Mass,25-34,Northeast,2024-05-12,635
+C0710,Mass,45-54,West,2021-12-22,651
+C0711,Small Business,25-34,Southeast,2020-12-27,743
+C0712,Affluent,25-34,West,2024-07-21,744
+C0713,Affluent,45-54,Northeast,2025-03-10,846
+C0714,Small Business,45-54,Midwest,2022-05-31,698
+C0715,Affluent,65+,Southwest,2019-03-13,722
+C0716,Mass,25-34,Northeast,2022-06-30,665
+C0717,Mass,25-34,Northeast,2025-03-17,677
+C0718,Mass,65+,West,2025-11-27,685
+C0719,Affluent,25-34,Northeast,2021-10-19,828
+C0720,Small Business,25-34,Southwest,2020-01-18,652
+C0721,Mass,25-34,West,2022-12-30,704
+C0722,Mass,35-44,Southwest,2024-10-19,674
+C0723,Mass,55-64,Midwest,2025-08-06,594
+C0724,Small Business,55-64,Midwest,2019-05-12,725
+C0725,Mass,45-54,Southwest,2021-01-10,722
+C0726,Mass,25-34,Midwest,2022-05-03,626
+C0727,Mass,35-44,Midwest,2019-09-08,665
+C0728,Mass,35-44,Northeast,2025-03-10,587
+C0729,Mass,25-34,Southwest,2019-10-14,608
+C0730,Mass,25-34,Southwest,2023-08-24,712
+C0731,Mass,25-34,Southwest,2025-05-31,644
+C0732,Mass,25-34,Northeast,2023-10-14,615
+C0733,Mass,35-44,Southwest,2024-04-30,675
+C0734,Mass,45-54,Southwest,2020-11-02,641
+C0735,Mass,18-24,Northeast,2024-10-11,644
+C0736,Affluent,35-44,West,2021-12-03,768
+C0737,Mass,55-64,Midwest,2019-06-06,613
+C0738,Mass,45-54,Midwest,2021-07-23,624
+C0739,Mass,55-64,Southwest,2021-06-11,672
+C0740,Mass,35-44,Midwest,2022-08-22,709
+C0741,Mass,55-64,Midwest,2020-11-06,721
+C0742,Mass,25-34,Southeast,2022-03-24,635
+C0743,Small Business,35-44,West,2021-12-27,732
+C0744,Mass,25-34,West,2021-04-13,630
+C0745,Mass,35-44,Northeast,2023-11-11,747
+C0746,Mass,35-44,Southwest,2021-02-17,614
+C0747,Mass,25-34,Northeast,2024-05-06,725
+C0748,Mass,55-64,Southeast,2020-10-01,635
+C0749,Affluent,25-34,West,2025-01-14,826
+C0750,Affluent,25-34,Northeast,2021-07-19,762
+C0751,Mass,25-34,Southeast,2019-04-14,619
+C0752,Mass,35-44,Southeast,2020-01-18,641
+C0753,Mass,25-34,Southwest,2024-08-17,700
+C0754,Mass,35-44,Midwest,2025-02-01,712
+C0755,Affluent,25-34,Midwest,2020-06-24,732
+C0756,Mass,55-64,West,2023-03-16,667
+C0757,Mass,65+,Midwest,2023-01-04,699
+C0758,Small Business,35-44,Southwest,2019-12-08,696
+C0759,Mass,45-54,Northeast,2022-02-26,607
+C0760,Mass,55-64,Southeast,2023-11-05,628
+C0761,Affluent,65+,West,2025-10-02,746
+C0762,Mass,45-54,West,2024-12-01,720
+C0763,Mass,55-64,Southwest,2019-09-07,738
+C0764,Mass,65+,Southeast,2020-08-28,700
+C0765,Small Business,55-64,Northeast,2022-01-18,703
+C0766,Mass,35-44,West,2020-01-20,699
+C0767,Mass,25-34,Southwest,2022-12-26,635
+C0768,Mass,18-24,Southeast,2019-01-22,658
+C0769,Mass,35-44,Midwest,2019-10-17,628
+C0770,Affluent,35-44,Southwest,2019-05-01,679
+C0771,Mass,35-44,Midwest,2021-01-23,680
+C0772,Mass,45-54,West,2024-04-27,673
+C0773,Mass,35-44,Northeast,2020-03-28,696
+C0774,Affluent,55-64,Southeast,2025-11-22,760
+C0775,Mass,25-34,Northeast,2020-11-18,676
+C0776,Small Business,25-34,Southwest,2019-04-25,715
+C0777,Mass,55-64,Southwest,2021-05-05,663
+C0778,Mass,55-64,West,2024-03-22,684
+C0779,Affluent,65+,Midwest,2019-09-29,702
+C0780,Small Business,55-64,Northeast,2019-07-03,707
+C0781,Mass,55-64,Midwest,2024-12-05,695
+C0782,Small Business,25-34,Northeast,2023-02-18,660
+C0783,Mass,35-44,Southwest,2021-05-25,667
+C0784,Mass,25-34,Southwest,2024-04-11,637
+C0785,Small Business,45-54,West,2024-11-23,666
+C0786,Mass,65+,Southeast,2021-07-04,614
+C0787,Affluent,35-44,Southeast,2022-12-02,792
+C0788,Mass,35-44,Northeast,2019-01-28,713
+C0789,Affluent,25-34,Midwest,2021-02-19,759
+C0790,Mass,25-34,Midwest,2023-02-26,754
+C0791,Mass,25-34,Southwest,2020-05-17,656
+C0792,Mass,18-24,Southwest,2025-12-02,801
+C0793,Mass,65+,Northeast,2025-10-12,655
+C0794,Mass,35-44,Southeast,2020-10-18,676
+C0795,Mass,55-64,Midwest,2021-10-07,647
+C0796,Mass,45-54,Southeast,2020-04-28,682
+C0797,Mass,25-34,Northeast,2022-07-09,703
+C0798,Mass,25-34,West,2019-11-13,660
+C0799,Affluent,55-64,Southwest,2021-09-23,815
+C0800,Affluent,25-34,Midwest,2022-11-16,746
